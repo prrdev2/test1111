@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "xyz"
+  description: "yz"
+  annotations:
+    github.com/project-slug: prrdev2/test1111
+    backstage.io/techdocs-ref: url:https://github.com/prrdev2/test1111
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "philip@programmatic.se"
